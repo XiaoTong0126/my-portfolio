@@ -68,7 +68,7 @@ header nav ul li a {
 }
 
 section {
-  padding: 0px 0px 30px 0px;
+  padding: 0px 30px 30px 0px;
 }
 
 .section-content-container {
@@ -128,3 +128,25 @@ section p {
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
 }
+
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+  width: 100%;
+}
+
+#surf-report {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 250px;
+}
+
+.project {
+  height: 120px;
+  background-color: lightgrey;
+  border: lightseagreen;
+  color: black;
+}
+
