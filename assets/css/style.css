@@ -1,121 +1,130 @@
 :root {
-    --primary-color: #92ccce;
-    --secondary-color: #024e76;
-    --tertiary-color: #31343d;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  --primary-color: #92ccce;
+  --secondary-color: #024e76;
+  --tertiary-color: #31343d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 header {
-    padding: 10px 35px 10px 0px;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    top: 0;
-    z-index: 9999;
-  }
+  padding: 10px 35px 10px 0px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  z-index: 9999;
+}
 
 header h1 a {
-    padding: 3px 6px 3px 40px;
-    font-size: 36px;
-    color: var(--tertiary-color);
-    background-color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  header nav {
-    margin: 7px 0;
-  }
-  
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    text-decoration:underline;
-    color: var(--primary-color);
-    padding: 10px 10px;
-    font-size: 15px;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 2px;
-  }
+  padding: 3px 6px 3px 40px;
+  font-size: 36px;
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+  text-decoration: none;
+}
 
-  .hero {
-    padding: 80px 35px;
-    background-image: url('../images/background.jpg');
-    position: relative;
-  }
+header nav {
+  margin: 7px 0;
+}
 
-.hero h1{
-    font-size: 25px;
-    padding: 5px 5px;
-    color: var(--tertiary-color);
-    background-color: var(--primary-color);
-    text-decoration: none;
-    position: absolute;
-    right: 60px;
-    bottom: 10px;
-  }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
-  .section {
-      display: flex;
-      padding: 30px 0px;
-  }
+header nav ul li a {
+  text-decoration: underline;
+  color: var(--primary-color);
+  padding: 10px 10px;
+  font-size: 15px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+.hero {
+  padding: 80px 35px;
+  background-image: url('../images/background.jpg');
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 25px;
+  padding: 5px 5px;
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+  text-decoration: none;
+  position: absolute;
+  right: 60px;
+  bottom: 10px;
+}
+
+section {
+  padding: 0px 0px 30px 0px;
+}
+
+.section-content-container {
+  color: var(--secondary-color);
+  margin: 0 auto auto 30px;
+}
+
+section p {
+  font-size: 11px;
+  text-align: left;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
 .section-title-container {
-    border-right: 3px solid;
-    border-color: var(--primary-color);
-
+  border-right: 3px solid;
+  border-color: var(--primary-color);
 }
 
-  .section-title {
-    font-size: 45px;
-    color: var(--secondary-color);
-    text-align: right;
-    margin: 0 auto 35px 100px;
-    padding: 0 10px;
-    width: 200px;
-  }
-  
-
-  .section p {
-    color: var(--secondary-color);
-    margin: 0 auto auto 30px;
-    font-size: 11px;
-    text-align: left;
-  }
-
-  #contact-me {
-    display: flex;
-    padding: 30px 0px;
-    align-items: center;
+.section-title {
+  font-size: 45px;
+  color: var(--secondary-color);
+  text-align: right;
+  margin: 0 auto 35px 100px;
+  padding: 0 10px;
+  width: 200px;
 }
 
-  #contact-me ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    flex-wrap: wrap;
-  }
-  
-  #contact-me ul li a {
-    text-decoration:underline;
-    color: var(--secondary-color);
-    padding: 10px 10px;
-    font-size: 15px;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 2px;
-  }
+#contact-me {
+  display: flex;
+  align-items: center;
+}
 
-  .test {
-      width: 100%;
-  }
+#contact-me-content {
+  width: 100%;
+}
+
+#contact-me ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+#contact-me ul li a {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  padding: 10px 10px;
+  font-size: 15px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
