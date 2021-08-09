@@ -146,7 +146,19 @@ section p {
 .project {
   height: 120px;
   background-color: lightgrey;
-  border: lightseagreen;
   color: black;
+  position: relative;
+  border: 4px solid var(--primary-color);
 }
 
+.project-title {
+  padding: 5px 5px;
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 10px;
+}
+
+.project-title h1 {
+  font-size: 20px;
+}
