@@ -68,7 +68,7 @@ header nav ul li a {
 }
 
 section {
-  padding: 0px 30px 30px 0px;
+  padding: 0px 120px 30px 0px;
 }
 
 .section-content-container {
@@ -99,7 +99,7 @@ section p {
   font-size: 45px;
   color: var(--secondary-color);
   text-align: right;
-  margin: 0 auto 35px 100px;
+  margin: 0 auto 35px 80px;
   padding: 0 10px;
   width: 200px;
 }
